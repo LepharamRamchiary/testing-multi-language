@@ -1,10 +1,9 @@
 import React from 'react';
 import './index.css';
-import Navbar from './pages/Navbar';
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
-
+import "./i18n";
 
 function App() {
   return (
